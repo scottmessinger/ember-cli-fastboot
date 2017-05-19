@@ -220,6 +220,7 @@ module.exports = {
       name: this.app.name,
       outputPaths: this.app.options.outputPaths,
       ui: this.ui,
+      assetMapEnabled: env === "production",
       fastbootAppConfig: fastbootConfig,
       appConfig: config
     });
